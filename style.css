@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+ 
+
+}
+.navbar{
+    background-color: rgb(164, 157, 157);
+    width: 15vw;
+    font-family: 'DM Sans', sans-serif;
+    height: 100vh;
+   
+    
+}
+.navbar nav{
+    padding: 35px;
+} 
+.navbar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0;
+}
+.navbar nav li a{
+   text-decoration: none;
+   color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+    height: 100vh;
+   
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(180, 190, 180); */
+    height: 55vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.imageDev img{
+    width: 450px;
+    height: 55vh;
+    border-radius: 4px;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.about{
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+   
+}
+.more{
+    font: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 22px;
+    font-weight: bold;
+
+}
+.btn{
+  margin-top: 34px;
+}
+.btn button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: white;
+    color: black;
+}
