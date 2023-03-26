@@ -1,0 +1,23 @@
+.blogItem{
+   margin: 10px;
+}
+
+.blogItem h2{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blogItem p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.blogContainer{
+    margin: 0 188px;
+}
+.blogContainer h1{
+    margin-top: 12px;
+    font-family: 'DM Sans', sans-serif;
+}
+@media screen and (max-width:500px) {
+    .blogContainer{
+        margin: 12px 55px;
+    }
+}

@@ -1,0 +1,33 @@
+.intro h2{
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+}
+.intro p{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px;
+}
+.skills{
+    width: 265px;
+    height: 6px;
+    background-color: blue;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+.ratebox{
+    width: 300px;
+    height: 6px;
+    background-color: black;  
+}
+.intro{
+    margin-left: 100px;
+}
+@media screen and (max-width:500px) {
+    .intro{
+        margin-left: 40px; 
+    }
+}
